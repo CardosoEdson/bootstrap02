@@ -1,0 +1,97 @@
+.logo-img{
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    
+}
+
+.custom-nav{
+    color: #ffffff !important;
+    font-weight: bold;
+    padding: 4px 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 0 !important;
+}
+
+.custom-nav.active,
+.custom-nav:hover {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-color: #ffffff !important;
+}
+
+@media (max-width: 767px) {
+    .drawer .custom-nav {
+        color: #000000 !important;
+    }
+}
+
+.hero-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    letter-spacing: 1px;
+}
+.hero-btn {
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    background-color: rgb(0, 0, 0, 0.3) !important;
+}
+
+.hero-btn:hover{
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+.passeios-section{
+    background-color: #f4f4f4;
+}
+.custom-card{
+    width: 195px;
+    border: 2px solid #222222 !important;
+    transition: transform 0.3s ease, box-shadow 0.3 ease, border-color 0.3 ease;
+    cursor: pointer;
+}
+
+.custom-card:hover{
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-color: #a85108 !important;
+}
+.custom-card img{
+    height: 175px;
+    object-fit: cover;
+}
+
+
+
+.custom-card-footer {
+    background-color: #a85108 !important;
+    font-size: 13px;
+    border-top: 2px solid #222 !important;
+}
+
+.valores-section{
+    background-color: #f6ede4;
+}
+
+.custom-table th,
+.custom-table td {
+    background-color: #dcdcdc !important;
+    border: 1px solid #888 !important;
+    color: #111 !important;
+    font-size: 14px;
+}
+
+.custom-table tfoot td{
+    background-color: #d6d6d6 !important;
+}
+.custom-footer{
+    background-color: #a85108;
+}
+
+.whatsapp-icon{
+    width: 38px;
+    height: 38px;
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 6px;
+}
